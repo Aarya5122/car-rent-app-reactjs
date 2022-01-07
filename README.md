@@ -1,7 +1,7 @@
 # Rent Car App
 
 It's an frontend application where a couple cars of are listed and user can add it into cart and proceed with checkout.
-checkout just clears the cart and pops a toast with a message rented!
+checkout just clears the cart and pops a toast with a message rented! Cart items are stored in local storage.
 We have used Axios package to make api calls and operate accordingly and we have used reactstrap to design our application. We can only add a item with same id in application.
 For Example if you have added a car to cart it cannot be added again.
 We have used faker to create fake data i.e on every reload a new name and price is given to cars but images accessed from pexels wont change.
