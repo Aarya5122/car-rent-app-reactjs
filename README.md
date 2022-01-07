@@ -4,7 +4,7 @@ It's an frontend application where a couple cars of are listed and user can add 
 checkout just clears the cart and pops a toast with a message rented!
 We have used Axios package to make api calls and operate accordingly and we have used reactstrap to design our application. We can only add a item with same id in application.
 For Example if you have added a car to cart it cannot be added again.
-We have used faker to create fake data.
+We have used faker to create fake data i.e on every reload a new name and price is given to cars but images accessed from pexels wont change.
 We have also used pexels api to get images for the application.
 
 ##### https://nnncar.netlify.app/  Valid(jan 7 2002- feb 7 2022)
