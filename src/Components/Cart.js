@@ -58,7 +58,7 @@ const Cart = ({CartItems, BuyNow, RemoveItem}) => {
                     <CardFooter>
                         <Button onClick={
                             () => BuyNow()
-                        } color="success">Buy Now</Button>
+                        } color="success">Rent Now</Button>
                     </CardFooter>
                 </Card>
             ) : (

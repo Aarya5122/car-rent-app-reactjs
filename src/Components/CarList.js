@@ -10,7 +10,7 @@ import Car from "./Car";
 
 const url = "https://api.pexels.com/v1/search?query=car&per_page=15&page=1"
 
-const key = ""
+const key = "ADD YOUR KEY"
 
 const CarList = ( { AddItem } ) => {
 
@@ -46,7 +46,7 @@ const CarList = ( { AddItem } ) => {
   return(
       <Container fluid>
           <Row>
-              <h1 className="text-center">Rent a Car</h1>
+              <h1 className="text-center">Rent a Car from NNNCar</h1>
               {carList.map(
                   (item)=>(
                       <Col md={4} key={item.id} className="mt-2 mb-1">
