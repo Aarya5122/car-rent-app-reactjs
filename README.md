@@ -1,3 +1,24 @@
+# Rent Car App
+
+It's an frontend application where a couple cars of are listed and user can add it into cart and proceed with checkout.
+checkout just clears the cart and pops a toast with a message rented!. We are stroring these cartItems in local storage of browser.
+We have used Axios package to make api calls and operate accordingly and we have used reactstrap to design our application. We can only add 1 item of with same id in application.
+For Example if you have added a car to cart it cannot be added again.
+We have used faker to create fake data.
+We have also used pexels api to get images for the application.
+
+## NOTE: Pexels API Key is not present in code
+please make sure you add your own pexel api key in src --> components --> carList --> line: 13
+
+## Resources Used
+
+### Reactstrap
+### Bootstrap
+### Axios
+### React-Toastify
+### Faker
+### Pexels Api
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
