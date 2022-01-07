@@ -10,7 +10,7 @@ import Car from "./Car";
 
 const url = "https://api.pexels.com/v1/search?query=car&per_page=15&page=1"
 
-const key = "ADD YOUR KEY"
+const key = "ADD YOUR KEY HERE"
 
 const CarList = ( { AddItem } ) => {
 
